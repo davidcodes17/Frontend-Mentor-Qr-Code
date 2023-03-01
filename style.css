@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    @font-face {
+        font-family: Outfit;
+        src: url("https://fonts.google.com/specimen/Outfit");
+    }
+    font-family: Outfit; 
+}
+body{
+    max-width: 1440px;
+    font-family: Outfit; 
+    background: hsl(220, 15%, 55%);
+}
+.container{
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: 300px;
+    text-align: center;
+    justify-content: center;    
+
+}
+.qr{
+    border-radius: 20px;
+    padding: 10px;
+    background: hsl(0, 0%, 100%);
+}
+.qrcode{
+    border-radius: 20px;
+    width: 0100%;
+}
+.head-text{
+    font-size: 23px;
+    font-weight: 700;
+    padding: 10px;
+}
+.abt-qr{
+    font-weight: 400;
+    font-size: 15px;
+    padding: 5px;
+}
+
+@media screen {
+    
+}
+@media screen and (max-width: 375px) {
+    body{
+        max-width: 375px;
+    }
+    .qr{
+        width: 95%;
+    }
+    
+.container{
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: 300px;
+    text-align: center;
+    justify-content: center;    
+
+}
+}
